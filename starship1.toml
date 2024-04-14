@@ -47,10 +47,10 @@ $spack\
 """
 
 right_format = """
-[](fg:#769ff0)
+[](fg:#394260)
 $cmd_duration\
 $time\
-[](fg:#769ff0)\
+[](fg:#394260)\
 """
 
 # [▓▒░](#a3aed2)
@@ -106,11 +106,11 @@ format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "bg:#293549"
-format = '[[  $time ](fg:#1c2431 bg:#769ff0)]($style)'
+format = '[[  $time ](fg:#769ff0 bg:#394260)]($style)'
 
 [cmd_duration]
 style = "bg:#293549"
-format = '[[ took $duration ](fg:#1c2431 bg:#769ff0)]($style)'
+format = '[[ took $duration ](fg:#769ff0 bg:#394260)]($style)'
 
 # Replace the '❯' symbol in the prompt with '➜'
 [character] # The name of the module we are configuring is 'character'
